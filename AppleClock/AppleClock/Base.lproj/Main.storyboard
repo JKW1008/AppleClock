@@ -157,6 +157,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="발견된 결과 없음" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1R-4R-YI1">
+                                <rect key="frame" x="140.66666666666666" y="410.66666666666669" width="112" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qHe-b9-wKN">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -192,6 +198,8 @@
                             <constraint firstItem="qHe-b9-wKN" firstAttribute="leading" secondItem="g0x-LX-grh" secondAttribute="leading" id="M2j-Uh-Z17"/>
                             <constraint firstItem="qHe-b9-wKN" firstAttribute="trailing" secondItem="g0x-LX-grh" secondAttribute="trailing" id="X60-dL-CV8"/>
                             <constraint firstItem="qHe-b9-wKN" firstAttribute="bottom" secondItem="g0x-LX-grh" secondAttribute="bottom" id="flo-8E-KPr"/>
+                            <constraint firstItem="c1R-4R-YI1" firstAttribute="centerY" secondItem="uz8-na-nGk" secondAttribute="centerY" id="hRb-8g-MZ8"/>
+                            <constraint firstItem="c1R-4R-YI1" firstAttribute="centerX" secondItem="uz8-na-nGk" secondAttribute="centerX" id="n2x-1J-jw9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" prompt="도시 추가" id="Kcf-Pg-5dG"/>
@@ -226,13 +234,13 @@
     <resources>
         <image name="globe" catalog="system" width="128" height="123"/>
         <systemColor name="secondaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
