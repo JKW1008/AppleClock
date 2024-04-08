@@ -15,6 +15,8 @@
 		EFD58E332BBE2D9200CF215E /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD58E322BBE2D9200CF215E /* WorldClockViewController.swift */; };
 		EFD58E362BBE322F00CF215E /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD58E352BBE322F00CF215E /* WorldClockTableViewCell.swift */; };
 		EFD58E392BBE83A500CF215E /* TimeZone+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD58E382BBE83A500CF215E /* TimeZone+Util.swift */; };
+		EFD58E3D2BBE928B00CF215E /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD58E3C2BBE928B00CF215E /* CitySelectionViewController.swift */; };
+		EFD58E3F2BBE9A9F00CF215E /* String_Hangeul.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD58E3E2BBE9A9F00CF215E /* String_Hangeul.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EFD58E322BBE2D9200CF215E /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		EFD58E352BBE322F00CF215E /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
 		EFD58E382BBE83A500CF215E /* TimeZone+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+Util.swift"; sourceTree = "<group>"; };
+		EFD58E3C2BBE928B00CF215E /* CitySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
+		EFD58E3E2BBE9A9F00CF215E /* String_Hangeul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Hangeul.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				EFD58E202BBE2B9000CF215E /* SceneDelegate.swift */,
 				EFD58E242BBE2B9000CF215E /* Main.storyboard */,
 				EFD58E322BBE2D9200CF215E /* WorldClockViewController.swift */,
+				EFD58E3C2BBE928B00CF215E /* CitySelectionViewController.swift */,
 				EFD58E272BBE2B9100CF215E /* Assets.xcassets */,
 				EFD58E292BBE2B9100CF215E /* LaunchScreen.storyboard */,
 				EFD58E2C2BBE2B9100CF215E /* Info.plist */,
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				EFD58E382BBE83A500CF215E /* TimeZone+Util.swift */,
+				EFD58E3E2BBE9A9F00CF215E /* String_Hangeul.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -161,9 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD58E392BBE83A500CF215E /* TimeZone+Util.swift in Sources */,
+				EFD58E3F2BBE9A9F00CF215E /* String_Hangeul.swift in Sources */,
 				EFD58E332BBE2D9200CF215E /* WorldClockViewController.swift in Sources */,
 				EFD58E1F2BBE2B9000CF215E /* AppDelegate.swift in Sources */,
 				EFD58E212BBE2B9000CF215E /* SceneDelegate.swift in Sources */,
+				EFD58E3D2BBE928B00CF215E /* CitySelectionViewController.swift in Sources */,
 				EFD58E362BBE322F00CF215E /* WorldClockTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
