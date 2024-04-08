@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFCFF1F72BC45C8B00914BC5 /* Date+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCFF1F62BC45C8B00914BC5 /* Date+Util.swift */; };
 		EFD58E1F2BBE2B9000CF215E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD58E1E2BBE2B9000CF215E /* AppDelegate.swift */; };
 		EFD58E212BBE2B9000CF215E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD58E202BBE2B9000CF215E /* SceneDelegate.swift */; };
 		EFD58E262BBE2B9000CF215E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFD58E252BBE2B9000CF215E /* Base */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EFCFF1F62BC45C8B00914BC5 /* Date+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Util.swift"; sourceTree = "<group>"; };
 		EFD58E1B2BBE2B9000CF215E /* AppleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD58E1E2BBE2B9000CF215E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFD58E202BBE2B9000CF215E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				EFD58E382BBE83A500CF215E /* TimeZone+Util.swift */,
 				EFD58E3E2BBE9A9F00CF215E /* String_Hangeul.swift */,
+				EFCFF1F62BC45C8B00914BC5 /* Date+Util.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD58E392BBE83A500CF215E /* TimeZone+Util.swift in Sources */,
+				EFCFF1F72BC45C8B00914BC5 /* Date+Util.swift in Sources */,
 				EFD58E3F2BBE9A9F00CF215E /* String_Hangeul.swift in Sources */,
 				EFD58E332BBE2D9200CF215E /* WorldClockViewController.swift in Sources */,
 				EFD58E1F2BBE2B9000CF215E /* AppDelegate.swift in Sources */,
