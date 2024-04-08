@@ -23,9 +23,17 @@ class WorldClockViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        for tz in TimeZone.knownTimeZoneIdentifiers {
-//            print(tz)
-//        }
+        NotificationCenter.default.addObserver(forName: .timeZoneDidSelect, object: nil, queue: .main) { [weak self] noti in guard let self, let timeZone = noti.userInfo?["timeZone"] as? TimeZone else {
+                return
+            }
+            
+            guard !self.list.contains(where: { $0.identifier == timeZone.identifier }) else {
+                return
+            }
+            
+            self.list.append(timeZone)
+            self.worldClockTableView.reloadData()
+        }
     }
 }
 
